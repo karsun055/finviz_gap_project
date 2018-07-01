@@ -40,8 +40,8 @@ def getfiles_from_finviz():
 
     username = driver.find_element_by_name('email')
     password = driver.find_element_by_name('password')
-    username.send_keys("karsun055@yahoo.com")
-    password.send_keys("Moodu055")
+    username.send_keys("")
+    password.send_keys("")
     login_attempt = driver.find_element_by_xpath("//*[@type='submit']")
     
     print('------- Logging in -------')
